@@ -40,9 +40,9 @@ cd puzzle-reconstruction
 
 Example output (see ./results for more):
 
-**Segmented puzzle pieces**
-**Feature matching visualizations**
-**Final assembled puzzle image**
+- **Segmented puzzle pieces**
+- **Feature matching visualizations**
+- **Final assembled puzzle image**
 
 
 
