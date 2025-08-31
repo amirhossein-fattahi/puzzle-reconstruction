@@ -23,8 +23,8 @@ def show_image(img, title="Image", cmap=None):
 
 # reference image and puzzle pieces
 def load_images():
-    reference_path = "peppa.png"  
-    patches_path = ["pieces1.png", "pieces2.png", "pz.png"] 
+    reference_path = "./figs/peppa.png"  
+    patches_path = ["./figs/pieces1.png", "./figs/pieces2.png", "./figs/pz.png"] 
 
     reference_img = cv2.imread(reference_path, cv2.IMREAD_COLOR)
     patches = [cv2.imread(patch, cv2.IMREAD_COLOR) for patch in patches_path]
@@ -109,16 +109,16 @@ def segment_puzzle_pieces(image_path, contour_area_ratio=0.01, threshold_method=
 
 # paths to the images
 puzzle_images = [
-    'pieces1.png',
-    'pieces2.png',
-    'pz.png'
+    './figs/pieces1.png',
+    './figs/pieces2.png',
+    './figs/pz.png'
 ]
 
 # specific contour_area_ratio for each image
 contour_area_ratios = {
-    'pieces1.png': 0.011,  
-    'pieces2.png': 0.01,  
-    'pz.png': 0.0055       # smaller pieces, lower ratio
+    './figs/pieces1.png': 0.011,  
+    './figs/pieces2.png': 0.01,  
+    './figs/pz.png': 0.0055       # smaller pieces, lower ratio
 }
 
 # apply the segmentation function to each image
@@ -148,7 +148,7 @@ def extract_sift_features(image):
     return keypoints, descriptors
 
 # reference image
-reference_image_path = 'peppa.png'
+reference_image_path = './figs/peppa.png'
 reference_image = cv2.imread(reference_image_path)
 
 if reference_image is None:
