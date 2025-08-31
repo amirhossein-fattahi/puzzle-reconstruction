@@ -27,21 +27,23 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/amirhossein-fattahi/puzzle-reconstruction.git
 cd puzzle-reconstruction
+```
 
 ---
 
 ## 📊 Results
 
-Segmentation accuracy: All pieces extracted correctly
+- **Segmentation accuracy:** All pieces extracted correctly
+- **Feature matching success:** ~95% valid homographies
+- **Final reconstruction:** Accurate placement, minimal artifacts
+- **Warping & overlaying** of pieces to assemble the final puzzle  
 
-Feature matching success: ~95% valid homographies
+Example output (see ./results for more):
 
-Final reconstruction: Accurate placement, minimal artifacts
+**Segmented puzzle pieces**
+**Feature matching visualizations**
+**Final assembled puzzle image**
 
-Example output (see report for more):
 
-Segmented puzzle pieces
 
-Feature matching visualizations
 
-Final assembled puzzle image
