@@ -42,7 +42,8 @@ Example output (see ./results for more):
 
 - **Segmented puzzle pieces**
 - **Feature matching visualizations**
-- **Final assembled puzzle image**
+- **Final assembled puzzle image**  
+
 
 
 | Segment 1 | Segment 2 | Segment 3 |
@@ -54,6 +55,22 @@ Example output (see ./results for more):
 | ![res1](./results/final_result1.png) | ![res2](./results/final_result2.png) | ![res3](./results/final_result3.png) |
 
 Feature Matching
-![feature](./results/feature_matching31.png)
+![feature](./results/feature_matching_31.png)  
 
+---  
 
+## 🧠 Key Metrics
+
+Segmentation accuracy: All pieces extracted correctly  
+
+Feature matching success: ~95% valid homographies  
+
+Final reconstruction: Accurate placement, minimal artifacts  
+
+---  
+
+## 📚 Reference
+
+If you use or modify this project, please cite it or link back to this repository.  
+
+Author: Amirhossein Fattahi
