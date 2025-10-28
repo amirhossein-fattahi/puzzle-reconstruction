@@ -49,5 +49,11 @@ Example output (see ./results for more):
 |------------|------------|------------|
 | ![seg1](./results/segment_detection1.png) | ![seg2](./results/segment_detection2.png) | ![seg3](./results/segment_detection3.png) |
 
+| Result 1 | Result 2 | Result 3 |
+|------------|------------|------------|
+| ![res1](./results/final_result1.png) | ![res2](./results/final_result2.png) | ![res3](./results/final_result3.png) |
+
+Feature Matching
+![feature](./results/feature_matching31.png)
 
 
