@@ -45,5 +45,9 @@ Example output (see ./results for more):
 - **Final assembled puzzle image**
 
 
+| Segment 1 | Segment 2 | Segment 3 |
+|------------|------------|------------|
+| ![seg1](./results/segment_detection1.png) | ![seg2](./results/segment_detection2.png) | ![seg3](./results/segment_detection3.png) |
+
 
 
